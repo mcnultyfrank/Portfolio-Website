@@ -1,89 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="styles.css">
-    
     <script src="https://kit.fontawesome.com/d08936fb1e.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@669&display=swap" rel="stylesheet">    <title>Website Portfolio</title> -->
 <title>Frank McNulty's Portfolio</title>
 </head>
-
 <body>
     <section>
         <div class="video-container">
-        <video id="videoBG" autoplay muted loop><source src="./Photos/Pexels Videos 1795912.mp4" type=""></video>
+            <video id="videoBG" autoplay muted loop><source src="./Photos/Pexels Videos 1795912.mp4" type=""></video>
             <article class = "hero-text">
                 <p>Frank McNulty <br><span class = "typing">Front End Developer<span class = "blinking">.</span></span></p>
             </article>
-    </div>
-        <!-- <div class="background"></div>
-        <div class="background1"></div>
-        <div class="background2"></div>
-        <div class="background3"></div>
-        <div class="background4"></div> -->
-    <header>
-        <nav>
-            <ul>
+        </div>
+    
+        <header>
+            <nav>
+                <ul>
                         <li><a class = "navhome"><i class="fas fa-battery-full"><span class="tooltiptext">Energy Saving Mode</span></i></a></li>
                     <div>                          
                         <li><a href = #portfolio-page>Portfolio</a></li>
                         <li><a href = #about-page>About</a></li>
                         <li><a href = #contact>Contact</a></li>
                     </div>
-            </ul>
-        </nav>
-    </header>   
+                </ul>
+            </nav>
+        </header>   
+        <a href = #portfolio-page><button class="downArrow"><i class="fas fa-angle-down"></i></button></a>
+    </section>
 
-</section>
-    <!-- <hr class="solid">
-    <hr class="solid1">
-    <hr class="solid2"> -->
-    
     <section class = "portfolio-page" id = "portfolio-page">
-        <article class = "artone">
-            <img src="photos/rain.jpg" alt="">
-            <button class = "code-button">Code</button>
-            <button class = "app-button" id = "appbutton">App</button> 
+        <article>
+            <img src="./Photos/punkapi.png" alt="">
+            <a href = "https://github.com/mcnultyfrank/Punk-Api" target="_blank"><button class = "code-button">Code</button></a>
+            <a href = "https://franksbrewdogapi.web.app/" target="_blank"><button class = "app-button">App</button></a>
         </article>
-        <article class = "arttwo">
+        <article>
             <img class = "imgtwo" src="./Photos/iphonecalculator.png" alt="Calculator">
-
             <a href = "https://github.com/mcnultyfrank/Calculator-Project.git" target="_blank"><button class = "code-button">Code</button></a>
             <a href = "https://mcnultyfrank.github.io/Calculator-Project/" target="_blank"><button class = "app-button">App</button></a>
 
-        </article class = "artthree">
+        </article>
         <article>
             <img src="./Photos/Untitled-2.png" alt="Notes">
-
             <a href = "https://github.com/mcnultyfrank/Notes.git" target="_blank"><button class = "code-button">Code</button></a>
             <a href = "https://mcnultyfrank.github.io/Notes/" target="_blank"><button class = "app-button">App</button></a>
 
-        </article class = "artfour">
+        </article>
         <article>
             <a href = "https://github.com/mcnultyfrank/Javascript-game.git" target="_blank"><button class = "code-button">Code</button></a>
             <a href = "https://mcnultyfrank.github.io/Javascript-game/" target="_blank"><button class = "app-button">App</button></a>
-        </article class = "artfive">
+        </article>
         <article>
             <button class = "code-button">Code</button>
             <button class = "app-button">App</button>
 
-        </article class = "artsix">
+        </article>
         <article>
             <button class = "code-button">Code</button>
             <button class = "app-button">App</button>
-   
         </article>
     </section>
-    <!-- <hr class="solid2">
-    <hr class="solid1">
-    <hr class="solid">
-    <hr class="solid">
-    <hr class="solid1">
-    <hr class="solid2"> -->
+
     <section class = "about-page" id = "about-page">
             <article>
                 <!-- <h3>Programming Languages & Libraries</h3> -->
@@ -97,39 +78,35 @@
             </article>
             <article>
                 <h2>A little bit about me</h2>
-                
                 <p>I'm a Trainee Software and Web Developer at _nology, currently completing a full time 12 week course.<br>
                     I love the technical and creative process involved with front end development. 
-                    <br>
+                <br>
                     I also have a 2:1 BSC degree in Audio and Music Technology and I am hugely passionate about digital music, with a wide ranging knowledge of DAWs and other music applications. These include Ableton Live, Pro Tools, Logic Pro, Adobe Audition, FMOD Studio and Audacity.</p>
-                            <!-- <img src="photos/me.JPG" alt=""> -->
-
             </article>
-        </section>
-        <section class = "contact" id = "contact">
-            <footer>
-                <ul>
-                    <button class="fas fa-envelope" id = "email"></button>
-                    <button class="fab fa-linkedin" href="www.linkedin.com/in/frank-mcnulty-591785151"></button>
-                    <button class="fab fa-github"></button>
-                </ul>
-            </footer>
+    </section>
+    <section class = "contact" id = "contact">
+        <footer>
+            <ul>
+                <button class="fas fa-envelope" id = "email"></button>
+                <button class="fab fa-linkedin" href="www.linkedin.com/in/frank-mcnulty-591785151"></button>
+                <button class="fab fa-github"></button>
+            </ul>
+        </footer>
+    </section>
 
-            </section>
-
-            <section class="modal display-none" id = "modal">
-                <article>
+    <section class="modal display-none" id = "modal">
+        <article>
                     <span class = "close" id="close">X</span>
-                    <form class="email-form"> 
+            <form class="email-form"> 
                     <h3>Lets work together!</h3>
                     <input type="text" class = "input" placeholder="First Name" id="first-name" required>
                     <input type="text" class = "input" placeholder="Last Name" id="last-name" required>
                     <input type="email" class ="input" placeholder="Email" id="email" required>
                     <textarea name="about-you" id="about-you" cols="30" rows="5" placeholder="Tell me a little about the project you'd like me to build..." required></textarea>
                     <button>Submit</button>
-                </form>
+            </form>
 
-                </article>
+        </article>
 
             </section>
             <!-- <script>

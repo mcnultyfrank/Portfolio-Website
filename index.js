@@ -7,6 +7,17 @@ const iconSelector = document.querySelector("#nav-icons");
 let video = document.getElementById("videoBG");
 const animationToggle = document.getElementById("portfolio-page");
 const blinkToggle = document.getElementsByClassName("blinking");
+const downArrow = document.querySelector('.fa-angle-down');
+
+downArrow.style.animationDelay = "3s";
+setTimeout(function (){
+    downArrow.style.animationPlayState = "paused";
+}, 7000);
+
+
+
+
+
 
 // iconSelector.innerHTML = "";
 // navIcons.forEach(icons => {
