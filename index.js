@@ -8,12 +8,12 @@ let video = document.getElementById("videoBG");
 const animationToggle = document.getElementById("portfolio-page");
 const blinkToggle = document.getElementsByClassName("blinking");
 const downArrow = document.querySelector('.fa-angle-down');
+const reactIcon = document.querySelector(".fa-react");
 
 downArrow.style.animationDelay = "3s";
 setTimeout(function (){
     downArrow.style.animationPlayState = "paused";
 }, 7000);
-
 
 
 
