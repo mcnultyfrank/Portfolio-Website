@@ -440,7 +440,7 @@
         font-size: 3vw;
       }
       h2{
-        font-size: 3vw;
+        font-size: 25px;
         padding: 20px;
         font-weight: 600;
         color: #BE3E35;
@@ -454,7 +454,7 @@
       left: 0;
     }
     p {
-      font-size: 2vw;
+      font-size: 20px;
       font-weight: 500;
       border-bottom: 2px solid #BE3E35;
       padding: 2vh 2vh;
@@ -483,12 +483,12 @@
     }
     li {
       list-style-type: circle;
-      font-size: 2vw;
+      font-size: 20px;
       margin: 0;
      
       i {
-        font-size: 1.5vw;
-        margin: 1vw;
+        font-size: 20px;
+        margin: 10px;
       }
     }
   }
@@ -704,16 +704,21 @@
       grid-row: 11/13;
     }
     .about-page article:nth-child(1) {
-      grid-column: 1/4;
+      grid-column: 1/5;
       grid-row: 2/3;
     }
     
     .about-page article:nth-child(2) {
-      grid-column: 1/4;
-      grid-row: 1/2;
+      grid-column: 1/5;
+      grid-row: 3/4;
     }
+    .about-page article:nth-child(3) {
+      grid-column: 1/5;
+      grid-row: 2/3;
+    }
+
   }
-  @media screen and (min-width: 568px) and (max-width: 1028px){
+  @media screen and (min-width: 568px) and (max-width: 1328px){
     .portfolio-page article {
       opacity: 1;
   
