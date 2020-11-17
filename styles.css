@@ -491,21 +491,24 @@ footer ul {
   justify-content: space-around;
 }
 
-footer ul button {
+footer ul a {
+  text-decoration: none;
   outline: 0;
   transition: 0.2s ease;
   cursor: pointer;
   border: none;
   font-size: 40px;
-  background-color: transparent;
+  color: #403A40;
   position: relative;
 }
 
-footer ul button:hover {
+footer ul a:hover {
+  color: #403A40;
   transform: scale(1.15);
 }
 
-footer ul button:hover::after {
+footer ul a:hover::after {
+  color: #403A40;
   transform: scale(1.15);
 }
 
