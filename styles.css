@@ -379,7 +379,7 @@ nav ul li {
   font-family: sans-serif;
   background: #ECE9E6;
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-  margin: 5px;
+  margin: 10px;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -447,7 +447,7 @@ nav ul li {
   font-size: 30px;
   font-weight: 500;
   border-bottom: 2px solid #BE3E35;
-  padding: 3vh 3vh;
+  padding: 2vh 2vh;
 }
 
 .about-page article:nth-child(1) {
