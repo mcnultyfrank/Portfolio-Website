@@ -464,7 +464,6 @@ nav ul li {
   grid-column: 4/5;
   grid-row: 1/2;
   overflow-x: scroll;
-  max-height: 100vh;
 }
 .about-page article:nth-child(3) p {
   font-size: 20px;
