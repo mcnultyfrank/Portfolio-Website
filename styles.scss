@@ -135,18 +135,30 @@
   .hero-text{
     position: absolute;
     color: white;
-    opacity: 0.7;
+    opacity: 0.8;
     display: flex;
     width: 100%;
-    flex-direction: row;
-    bottom: 20%;
-    left: 5%;
+    flex-direction: column;
+    bottom: 10%;
+    p{
+      align-self: flex-start;
+      font-size: 8vw;
+      margin: 1vw;
+      padding: 2vw 0vw 1vw 0vw;
+      border-bottom: 2px solid white;
+      border-radius: 3px;
+      /* height: 10vh; */
+      /* animation: typing 3s steps(100, end), blink-caret 0.75s step-end infinite; */
+    }
+    h3 {
+      align-self: flex-end;
+      border-bottom: 2px solid white;
+      border-radius: 3px;
+      font-size: 3vw;
+      margin: 1vw;
+      padding: 2vw 0vw 1vw 0vw;
+    }
   
-  }
-  .hero-text p{
-    font-size: 8vw;
-    /* height: 10vh; */
-    /* animation: typing 3s steps(100, end), blink-caret 0.75s step-end infinite; */
   }
   .typing{
     z-index: 1;
@@ -665,7 +677,14 @@
   
   
   @media screen and (min-width: 180px) and (max-width: 768px){
-  
+    .hero-text{
+      p {
+        font-size: 10vw;
+      }
+      h3{
+        font-size: 6vw;
+      }
+    }
     nav {
       font-size: 4vw; 
     }
@@ -721,9 +740,14 @@
 
   }
   @media screen and (min-width: 768px) and (max-width: 1028px){
+    .hero-text{
+      p {
+        font-size: 10vw;
+
+      }
+    }
     .portfolio-page article {
       opacity: 1;
-  
     }
     nav {
       font-size: 3.5vw; 
