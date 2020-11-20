@@ -232,7 +232,7 @@ nav ul li {
   border-bottom-left-radius: 45px;
   border-bottom-right-radius: 45px;
   margin: 10px;
-  transition: 1s ease;
+  transition: 0.3s ease;
   text-align: center;
   opacity: 0.3;
 }
