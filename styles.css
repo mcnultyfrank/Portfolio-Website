@@ -154,14 +154,12 @@ nav ul li {
   font-size: 8vw;
   margin: 1vw;
   padding: 2vw 0vw 1vw 0vw;
-  border-bottom: 2px solid white;
   border-radius: 3px;
   /* height: 10vh; */
   /* animation: typing 3s steps(100, end), blink-caret 0.75s step-end infinite; */
 }
 .hero-text h3 {
   align-self: flex-end;
-  border-bottom: 2px solid white;
   border-radius: 3px;
   font-size: 3vw;
   margin: 1vw;
