@@ -458,6 +458,12 @@ nav ul li {
   border-bottom: 2px solid #BE3E35;
   padding: 2vh 2vh;
 }
+.about-page .portfolioList .fa-react {
+  color: #074973;
+}
+.about-page .portfolioList .fa-js-square {
+  color: #F7D200;
+}
 
 .about-page article:nth-child(1) {
   grid-column: 1/2;
