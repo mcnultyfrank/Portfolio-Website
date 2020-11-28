@@ -225,7 +225,7 @@
   }
   
   .portfolio-page article {
-    box-shadow:
+  box-shadow:
     0  5px 10px rgb(154,160,185,0.05),
     0 15px 40px rgb(166,173,201,0.2);
     color: white;
@@ -234,10 +234,10 @@
     border-left: 0px;
     border-bottom-left-radius: 45px;
     border-bottom-right-radius: 45px;
-    margin: 10px;
-    transition: 0.3s ease;
+    margin: 1px;
+    transition: 0.5s ease;
     text-align: center;
-    opacity: 0.3;
+    opacity: 0.2;
   
   }
   
