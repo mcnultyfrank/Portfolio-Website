@@ -7,17 +7,44 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./Photos/—Pngtree—abstract fluid geometric background colorful_3766078.png">
     <script src="https://kit.fontawesome.com/d08936fb1e.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<title>Frank McNulty's Portfolio</title>
+    <title>Frank McNulty's Portfolio</title>
 </head>
 <body>
-    <section>
+    <section class="home">
         <div class="video-container">
             <video id="videoBG" autoplay loop muted playsinline src="./Photos/Pexels Videos 1795912.mp4" type=""></video>
-            <article class = "hero-text">
-                <p>Frank McNulty </p> <p><span class = "typing">Front End Developer<span class = "blinking">.</span></span></p>
-                <!-- <h3>This website contains my portfolio of Javascript and React.js projects.<br> I hope you enjoy looking at them as much as I enjoyed creating them.</h3> -->
+            <!-- <article data-aos="fade-left" data-aos-duration="2000">
+                <div>
+                    <h2>What i'm currently working on...</h2>
+                    <i class="fas fa-code"></i>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, aperiam!</p>
+            </article> -->
+            <article>
+            
+                <!-- <div>
+                    <h2>I do Frontend Development</h2>
+                    <i class="fab fa-react"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-angular"></i>
+                </div> -->
+                <!-- <p>Proficient in multipled front end libraries and frameworks</p> -->
+                <!-- <img src="./Photos/bluecircle.png" alt="" srcset=""> -->
 
             </article>
+            <!-- <article data-aos="fade-left" data-aos-duration="2000">
+                <div>
+                    <h2>I do Backend Development</h2>
+                    <i class="fab fa-react"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-angular"></i>
+                </div>
+                <p>Proficient in multipled front end libraries and frameworks</p>
+            </article>  -->
+            <article class = "hero-text"> 
+                <p>Frank McNulty </p> <p><span class = "typing">Software Developer<span class = "blinking">.</span></span></p>
+                <!-- <h3>This website contains my portfolio of Javascript and React.js projects.<br> I hope you enjoy looking at them as much as I enjoyed creating them.</h3> -->
+             </article>
         </div>
     
         <header>
@@ -32,11 +59,14 @@
                 </ul>
             </nav>
         </header>   
-        <a href = #portfolio-page><button class="downArrow"><i class="fas fa-angle-down"></i></button></a>
+        <!-- <a href = #portfolio-page><button class="downArrow"><i class="fas fa-angle-down"></i></button></a> -->
     </section>
 
     <section class = "portfolio-page" id = "portfolio-page">
-        <article>
+        <article><!-- <div>
+                <h2>Dada</h2>
+                <h3>Progressive Web App for Parental education, targeted at Dads</h3>
+            </div> -->
             <img src="./Photos/macipaddada.png" alt="Dada">
             <a href = "https://github.com/mcnultyfrank/Dada" target="_blank"><button class = "code-button">Code</button></a>
             <a href = "https://dada-da4d5.web.app/" target="_blank"><button class = "app-button">App</button></a>
@@ -44,6 +74,7 @@
         <article>
             <img src="./Photos/punkapi.png" alt="">
             <button class = "code-button">Code</button></a>
+            <a href = "https://github.com/mcnultyfrank/Punk-Api" target="_blank"><button class = "code-button">Code</button></a>
             <a href = "https://franksbrewdogapi.web.app/" target="_blank"><button class = "app-button">App</button></a>
         </article>
         <article>
@@ -70,7 +101,7 @@
     </section>
 
     <section class = "about-page" id = "about-page">
-            <article>
+            <!-- <article>
                 <h3>La<span style='font-size:17px;'>&#127925;</span>guages, tools and Frameworks</h3>
                 <i class="fab fa-html5"></i>
                 <i class="fab fa-css3-alt"></i>
@@ -79,11 +110,11 @@
                 <i class="fab fa-react"></i>
                 <i class="fab fa-github"></i>
                 <i class="fab fa-angular"></i>
-            </article>
+            </article> -->
             <article>
                 <h2>Hey <span class="wave">  👋</span></h2>
                 <p>
-                    I'm a Trainee Software and Web Developer at _nology, currently completing a full time 12-week course. I have learned to build comprehensive, responsive and mobile first applications with vanilla JavaScript and React.js.
+                    I'm a Software Developer graduate from _nology, where I completed a full time 12-week course. I have learned to build comprehensive, responsive and mobile first applications with vanilla JavaScript and React.js.
                 </p>
                 <p>
                 I have experience working within a team and have built various mobile-first Applications in React and vanilla Javascript, with excellent UX and UI design being a huge focus on every project.
@@ -135,8 +166,11 @@
         </article>
 
             </section>
-            <script src="index.js"></script>
             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+              </script>
+            <script src="index.js"></script>
     
 
 </body>

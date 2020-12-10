@@ -15,15 +15,6 @@ setTimeout(function (){
     downArrow.style.animationPlayState = "paused";
 }, 7000);
 
-
-
-
-
-// iconSelector.innerHTML = "";
-// navIcons.forEach(icons => {
-//     iconSelector.innerHTML += `<i>${icons}</i>`
-// })
-// const backgroundBlur = document.getElementById("blurbody");
 settingsToggle.addEventListener("click", (event) =>{
     if(event.target.classList.contains("fa-battery-full")){
         event.target.classList.remove("fa-battery-full");

@@ -14,12 +14,7 @@ var reactIcon = document.querySelector(".fa-react");
 downArrow.style.animationDelay = "3s";
 setTimeout(function () {
   downArrow.style.animationPlayState = "paused";
-}, 7000); // iconSelector.innerHTML = "";
-// navIcons.forEach(icons => {
-//     iconSelector.innerHTML += `<i>${icons}</i>`
-// })
-// const backgroundBlur = document.getElementById("blurbody");
-
+}, 7000);
 settingsToggle.addEventListener("click", function (event) {
   if (event.target.classList.contains("fa-battery-full")) {
     event.target.classList.remove("fa-battery-full");

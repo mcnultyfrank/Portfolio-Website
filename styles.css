@@ -240,10 +240,23 @@ nav ul li {
   border-left: 0px;
   border-bottom-left-radius: 45px;
   border-bottom-right-radius: 45px;
-  margin: 10px;
-  transition: 0.3s ease;
+  margin: 1px;
+  transition: 0.5s ease;
   text-align: center;
-  opacity: 0.3;
+  opacity: 0.2;
+}
+.portfolio-page article div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.portfolio-page article div h2 {
+  font-size: 40px;
+  border-bottom: 1px solid black;
+  margin: 3vw;
 }
 
 .portfolio-page article img {
@@ -261,39 +274,6 @@ nav ul li {
   margin: 0;
   /* height: 1fr; */
   /* padding-top: 250px; */
-}
-
-.portfolio-page article video {
-  border-radius: 1px;
-  object-fit: contain;
-  position: absolute;
-  background-size: cover;
-  width: 100%;
-  height: 85%;
-  top: 0;
-  left: 0;
-  margin: 0;
-  height: 2fr;
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-  /* padding-top: 250px; */
-}
-
-.portfolio-page article h2 {
-  width: 100%;
-  position: absolute;
-  font-size: 30px;
-  bottom: 45%;
-}
-
-.portfolio-page article p {
-  font-size: 15px;
-  bottom: 35%;
-  left: 0;
-  right: 0;
-  width: 100%;
-  position: absolute;
 }
 
 .portfolio-page button {
@@ -376,7 +356,7 @@ nav ul li {
 
 .about-page {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   background-color: #282724;
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
@@ -388,9 +368,9 @@ nav ul li {
   font-family: sans-serif;
   background: #ECE9E6;
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-  margin: 10px;
-  padding: 20px;
-  border-radius: 10px;
+  margin: 2px;
+  padding: 1px;
+  border-radius: 2px;
   text-align: center;
   color: #403A40;
 }
@@ -403,7 +383,7 @@ nav ul li {
   font-size: 20px;
 }
 .about-page article i {
-  font-size: 6vw;
+  font-size: 30px;
   cursor: pointer;
   margin: 20px;
   transition: 1.3s ease-in-out;
@@ -466,31 +446,22 @@ nav ul li {
 }
 
 .about-page article:nth-child(1) {
-  grid-column: 1/2;
+  grid-column: 1/3;
   grid-row: 1/2;
 }
 
 .about-page article:nth-child(2) {
-  grid-column: 2/4;
-  grid-row: 1/2;
-}
-
-.about-page article:nth-child(3) {
-  grid-column: 4/5;
+  grid-column: 3/4;
   grid-row: 1/2;
   overflow-x: scroll;
 }
-.about-page article:nth-child(3) p {
+.about-page article:nth-child(2) p {
   font-size: 20px;
 }
-.about-page article:nth-child(3) li {
+.about-page article:nth-child(2) li {
   list-style-type: circle;
   font-size: 20px;
   margin: 0;
-}
-.about-page article:nth-child(3) li i {
-  font-size: 20px;
-  margin: 10px;
 }
 
 footer {
